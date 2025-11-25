@@ -1,3 +1,3 @@
-# KRUTI Full Pro
+# KRUTI
 
 Autonomous task automation agent scaffold.
