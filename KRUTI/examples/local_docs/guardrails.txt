@@ -1,0 +1,7 @@
+Guardrails are runtime constraints that keep an agent inside acceptable behavior.
+A practical baseline is an allowlist of tools. If a tool is not explicitly allowed,
+the agent cannot call it. Guardrails also include budgets: max steps, timeouts,
+and output constraints.
+
+In production, guardrails reduce blast radius: they turn an LLM from a general text
+generator into a controlled component with measurable risk boundaries.

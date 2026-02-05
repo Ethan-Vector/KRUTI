@@ -1,0 +1,3 @@
+{"id": "calc_basic", "input": "calculate: 19*7", "must_contain": ["133"]}
+{"id": "retrieve_guardrails", "input": "search docs: guardrails allowlists", "must_contain": ["Guardrails"]}
+{"id": "default_final", "input": "Say hello", "must_contain": ["help"]}

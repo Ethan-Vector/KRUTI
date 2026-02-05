@@ -1,0 +1,5 @@
+Evals are how you avoid shipping vibes. Start with smoke tests: a small dataset that
+catches regressions. Over time add harder cases: tool routing, refusal, hallucination,
+and latency/cost budgets.
+
+A good eval harness is automated, repeatable, and wired into CI.

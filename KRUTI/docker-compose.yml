@@ -1,0 +1,7 @@
+services:
+  kruti:
+    build: .
+    environment:
+      - KRUTI_CONFIG=configs/kruti.yaml
+    volumes:
+      - .:/app

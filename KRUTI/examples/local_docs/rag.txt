@@ -1,0 +1,4 @@
+RAG (Retrieval-Augmented Generation) adds a retrieval step before generation.
+You fetch top-K relevant chunks and feed them to the model as context.
+This improves grounding, but you must evaluate it: retrieval quality, prompt format,
+and failure modes like stale or conflicting docs.

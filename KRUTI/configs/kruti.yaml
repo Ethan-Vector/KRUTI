@@ -1,0 +1,23 @@
+app:
+  name: kruti
+  log_level: INFO
+
+agent:
+  max_steps: 6
+  system_prompt: |
+    You are KRUTI, a tool-using assistant.
+    When a tool is needed, output an Action of type "tool" with JSON arguments.
+    Otherwise output a Final.
+
+guardrails:
+  allowed_tools:
+    - calc
+    - retrieve
+  tool_timeout_seconds: 10
+
+rag:
+  docs_path: examples/local_docs
+  top_k: 3
+
+llm:
+  provider: rule   # options: rule (default), mock (tests), or your custom provider
